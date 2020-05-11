@@ -13,6 +13,7 @@
 		CF0EB7A923FF1D8300B3B108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF0EB7A823FF1D8300B3B108 /* Assets.xcassets */; };
 		CF0EB7AC23FF1D8300B3B108 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF0EB7AB23FF1D8300B3B108 /* Preview Assets.xcassets */; };
 		CF0EB7AF23FF1D8300B3B108 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF0EB7AD23FF1D8300B3B108 /* LaunchScreen.storyboard */; };
+		CF0EB7B823FF22D800B3B108 /* tic-tac-toe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0EB7B723FF22D800B3B108 /* tic-tac-toe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CF0EB7AB23FF1D8300B3B108 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CF0EB7AE23FF1D8300B3B108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF0EB7B023FF1D8300B3B108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF0EB7B723FF22D800B3B108 /* tic-tac-toe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "tic-tac-toe.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		CF0EB7A123FF1D8100B3B108 /* game-tic-tac-toe */ = {
 			isa = PBXGroup;
 			children = (
+				CF0EB7B623FF22B900B3B108 /* game-logic */,
 				CF0EB7A223FF1D8100B3B108 /* AppDelegate.swift */,
 				CF0EB7A423FF1D8100B3B108 /* SceneDelegate.swift */,
 				CF0EB7A623FF1D8100B3B108 /* ContentView.swift */,
@@ -73,6 +76,14 @@
 				CF0EB7AB23FF1D8300B3B108 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CF0EB7B623FF22B900B3B108 /* game-logic */ = {
+			isa = PBXGroup;
+			children = (
+				CF0EB7B723FF22D800B3B108 /* tic-tac-toe.swift */,
+			);
+			path = "game-logic";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +159,7 @@
 			files = (
 				CF0EB7A323FF1D8100B3B108 /* AppDelegate.swift in Sources */,
 				CF0EB7A523FF1D8100B3B108 /* SceneDelegate.swift in Sources */,
+				CF0EB7B823FF22D800B3B108 /* tic-tac-toe.swift in Sources */,
 				CF0EB7A723FF1D8100B3B108 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

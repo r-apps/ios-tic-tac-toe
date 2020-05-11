@@ -8,10 +8,29 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContentView: View{
+    var game: Game = Game()
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            VStack {
+                ForEach(game.fields, id: \.self) { row in
+                    HStack {
+                        ForEach(row) { field in
+                            Button(action: {
+                                
+                            }) {
+                                Text(field.state.rawValue)
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
+}
+
+struct RowValue: View {
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
